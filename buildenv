@@ -3,7 +3,7 @@
 export ZOPEN_TYPE="BARE" 
 
 export ZOPEN_CATEGORIES="language"
-export ZOPEN_NAME="python"
+export ZOPEN_NAME="check_python"
 export ZOPEN_CONFIGURE=skip
 export ZOPEN_CHECK=zopen_check
 export ZOPEN_MAKE=skip
