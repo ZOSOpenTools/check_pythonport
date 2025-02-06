@@ -51,7 +51,7 @@ cat <<zz
   export PATH="\${PYTHON_PATH}:\${PATH}"
 
   # Add the directory of the Python lib path to the LIBPATH environment variable (lib is a peer directory of bin)
-  PYTHON_LIBPATH=\$( cd "\${PYTHON_PATH}/../lib"; echo $PWD)
+  PYTHON_LIBPATH=\$( cd "\${PYTHON_PATH}/../lib"; echo \$PWD )
   export LIBPATH="\${PYTHON_LIBPATH}:\${LIBPATH}"
 
   # Check the Python version. If Python 3.11 or greater, add in libzz64.so
